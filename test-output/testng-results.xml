@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47469" started-at="2023-03-20T19:07:12 IST" finished-at="2023-03-20T19:07:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47469" started-at="2023-03-20T19:07:12 IST" finished-at="2023-03-20T19:07:59 IST">
+      <class name="com.amazon.logintest.Pomlogintest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.amazon.logintest.Pomlogintest@74a10858]" name="openBrowser" is-config="true" duration-ms="20872" started-at="2023-03-20T19:06:51 IST" finished-at="2023-03-20T19:07:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enterApplicationUrl()[pri:0, instance:com.amazon.logintest.Pomlogintest@74a10858]" name="enterApplicationUrl" is-config="true" duration-ms="22511" started-at="2023-03-20T19:07:12 IST" finished-at="2023-03-20T19:07:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationUrl -->
+        <test-method status="PASS" signature="loginpage()[pri:1, instance:com.amazon.logintest.Pomlogintest@74a10858]" name="loginpage" duration-ms="19088" started-at="2023-03-20T19:07:34 IST" finished-at="2023-03-20T19:07:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="verifyelements()[pri:2, instance:com.amazon.logintest.Pomlogintest@74a10858]" name="verifyelements" duration-ms="5765" started-at="2023-03-20T19:07:53 IST" depends-on-methods="com.amazon.logintest.Pomlogintest.loginpage" finished-at="2023-03-20T19:07:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyelements -->
+      </class> <!-- com.amazon.logintest.Pomlogintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
